@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+nav{
+    height: 40px;
+    background-color: lightgreen;
+}
+
+ul{
+    list-style-type: none;
+    display: inline;
+    margin-left: 30px;
+}
+
+ul li{
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    transition: 0.3s;
+}
+
+ul li:hover{
+    background-color: greenyellow;
+    transition: 0.4s;
+}
+
+/* img{
+    height: 40px;
+    align;
+} */
